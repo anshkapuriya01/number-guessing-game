@@ -11,7 +11,7 @@ body {
     transition: background-color 0.3s, color 0.3s;
   }
   
-/* Animated Border Effect */
+
 .container {
     background-color: #2d2d2d;
     padding: 20px;
@@ -26,15 +26,15 @@ body {
   .container::before {
     content: "";
     position: absolute;
-    top: -6px; /* Increased border thickness */
-    left: -6px; /* Increased border thickness */
-    right: -6px; /* Increased border thickness */
-    bottom: -6px; /* Increased border thickness */
+    top: -6px; 
+    left: -6px; 
+    right: -6px; 
+    bottom: -6px; 
     background: linear-gradient(45deg, #ff0000, #0011ff, #00ffee, #11ff00, #ccff00);
-    background-size: 300% 300%; /* Adjusted gradient size */
-    border-radius: 25px; /* Increased border radius */
+    background-size: 300% 300%; 
+    border-radius: 25px;
     z-index: -1;
-    animation: animateBorder 6s linear infinite; /* Slower animation for better visibility */
+    animation: animateBorder 3s linear infinite; 
   }
   
   @keyframes animateBorder {
